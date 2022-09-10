@@ -1,0 +1,53 @@
+.main {
+  box-sizing: border-box;
+}
+.main ul {
+  list-style: none;
+}
+
+.main .split {
+  height: 100%;
+  width: 50vw;
+  position: fixed;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/home/edu02/220910profile/src/styles/image/left.jpg");
+  background-position: 91% 50%;
+  background-repeat: no-repeat;
+}
+
+.right {
+  right: 0;
+  background-color: #fff;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 8px;
+  margin: 25px;
+  background-color: #33475b;
+  border-radius: 10px;
+  color: white;
+  opacity: 0.8;
+}
+.centered img {
+  width: 500px;
+  border-radius: 50%;
+}
+.centered h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
